@@ -10,8 +10,9 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link rel="shortcut icon" href="assets/img/favico.png" type="image/x-icon">
+  <link href="assets/img/favico.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -35,7 +36,7 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top" style="background-color: rgba(40, 58, 90, 0.9);">
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="index.html">MSK Web</a></h1>
@@ -44,27 +45,21 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link   scrollto" href="pricing.html">Pricing</a></li>
-          <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="projects.html">Projects</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="pricing.html"><span>Pricing</span> <i
+                class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="#">Website</a></li>
+              <li class="dropdown"><a href="#"><span>Android App</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#app-development">App Development</a></li>
+                  <li><a href="#app-maintenance">App Maintenance</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
@@ -372,132 +367,6 @@
       </div>
     </section><!-- End Cta Section -->
 
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Our Portfolio</h2>
-          <p>Discover the excellence of our work at MSK Web Solutions. Our portfolio showcases a variety of successful
-            projects that reflect our commitment to quality and innovation. We believe in turning ideas into impactful
-            digital experiences, ensuring every client stands out in their industry.</p>
-        </div>
-
-
-        <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
@@ -649,77 +518,86 @@
     </section><!-- End Pricing Section -->
 
 
-<!-- ======= Frequently Asked Questions Section ======= -->
-<section id="faq" class="faq section-bg">
-  <div class="container" data-aos="fade-up">
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
 
-    <div class="section-title">
-      <h2>Frequently Asked Questions</h2>
-      <p>At MSK Web Solutions, we understand you may have questions about our services. Here are some of the most common inquiries we've received, along with their answers. If you have any further questions, feel free to reach out to us!</p>
-    </div>
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+          <p>At MSK Web Solutions, we understand you may have questions about our services. Here are some of the most
+            common inquiries we've received, along with their answers. If you have any further questions, feel free to
+            reach out to us!</p>
+        </div>
 
-    <div class="faq-list">
-      <ul>
-        <li data-aos="fade-up" data-aos-delay="100">
-          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-            data-bs-target="#faq-list-1">What services do you offer? <i
-              class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-          <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-            <p>
-              We offer a wide range of services, including website design and development, website maintenance, SEO optimization, and custom web solutions tailored to your business needs.
-            </p>
-          </div>
-        </li>
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
+                data-bs-target="#faq-list-1">What services do you offer? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  We offer a wide range of services, including website design and development, website maintenance, SEO
+                  optimization, and custom web solutions tailored to your business needs.
+                </p>
+              </div>
+            </li>
 
-        <li data-aos="fade-up" data-aos-delay="200">
-          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
-            class="collapsed">How long does it take to build a website? <i
-              class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-          <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              The timeline for building a website varies based on complexity and requirements. Typically, it can take anywhere from a few weeks to a couple of months. We'll provide a more accurate estimate after discussing your specific needs.
-            </p>
-          </div>
-        </li>
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
+                class="collapsed">How long does it take to build a website? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  The timeline for building a website varies based on complexity and requirements. Typically, it can
+                  take anywhere from a few weeks to a couple of months. We'll provide a more accurate estimate after
+                  discussing your specific needs.
+                </p>
+              </div>
+            </li>
 
-        <li data-aos="fade-up" data-aos-delay="300">
-          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
-            class="collapsed">What are your payment terms? <i
-              class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-          <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              We require a deposit upfront to begin work, with the remaining balance due upon completion. For ongoing services, we offer monthly billing options based on your selected plan.
-            </p>
-          </div>
-        </li>
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
+                class="collapsed">What are your payment terms? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  We require a deposit upfront to begin work, with the remaining balance due upon completion. For
+                  ongoing services, we offer monthly billing options based on your selected plan.
+                </p>
+              </div>
+            </li>
 
-        <li data-aos="fade-up" data-aos-delay="400">
-          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
-            class="collapsed">Do you provide ongoing support after the website is launched? <i
-              class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-          <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Yes, we offer ongoing support and maintenance plans to ensure your website remains updated and performs optimally. You can choose from our various website maintenance plans based on your needs.
-            </p>
-          </div>
-        </li>
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
+                class="collapsed">Do you provide ongoing support after the website is launched? <i
+                  class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Yes, we offer ongoing support and maintenance plans to ensure your website remains updated and
+                  performs optimally. You can choose from our various website maintenance plans based on your needs.
+                </p>
+              </div>
+            </li>
 
-        <li data-aos="fade-up" data-aos-delay="500">
-          <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
-            class="collapsed">Can I update my website content myself? <i class="bx bx-chevron-down icon-show"></i><i
-              class="bx bx-chevron-up icon-close"></i></a>
-          <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-            <p>
-              Absolutely! We can provide you with a user-friendly content management system (CMS) that allows you to easily update your website content whenever you need. Training can be provided as part of our services.
-            </p>
-          </div>
-        </li>
+            <li data-aos="fade-up" data-aos-delay="500">
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
+                class="collapsed">Can I update my website content myself? <i class="bx bx-chevron-down icon-show"></i><i
+                  class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Absolutely! We can provide you with a user-friendly content management system (CMS) that allows you to
+                  easily update your website content whenever you need. Training can be provided as part of our
+                  services.
+                </p>
+              </div>
+            </li>
 
-      </ul>
-    </div>
+          </ul>
+        </div>
 
-  </div>
-</section><!-- End Frequently Asked Questions Section -->
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
 
 
     <!-- ======= Contact Section ======= -->
@@ -728,9 +606,11 @@
 
         <div class="section-title">
           <h2>Contact Us</h2>
-          <p>We would love to hear from you! Whether you have questions about our services, need assistance, or want to discuss your project, feel free to reach out. Our dedicated team at MSK Web Solutions is here to assist you every step of the way.</p>
+          <p>We would love to hear from you! Whether you have questions about our services, need assistance, or want to
+            discuss your project, feel free to reach out. Our dedicated team at MSK Web Solutions is here to assist you
+            every step of the way.</p>
         </div>
-        
+
 
         <div class="row">
 
@@ -739,7 +619,7 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>Station Road, Shikohabad Firozabad (U.P) India</p>
+                <p>Station Road, Shikohabad Firozabad - 283141 <br> Uttar Pradesh (India)</p>
               </div>
 
               <div class="email">
@@ -797,89 +677,89 @@
 
   </main><!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
 
-      <div class="footer-newsletter">
-          <div class="container">
-              <div class="row justify-content-center">
-                  <div class="col-lg-6">
-                      <h4>Join Our Newsletter</h4>
-                      <p>Subscribe to our newsletter to receive the latest updates, insights, and special offers
-                          directly in your inbox. Stay connected with our community and never miss out on important
-                          news and events.</p>
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter to receive the latest updates, insights, and special offers
+              directly in your inbox. Stay connected with our community and never miss out on important
+              news and events.</p>
 
-                      <form action="" method="post">
-                          <input type="email" name="email"><input type="submit" value="Subscribe">
-                      </form>
-                  </div>
-              </div>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
           </div>
+        </div>
       </div>
+    </div>
 
-      <div class="footer-top">
-          <div class="container">
-              <div class="row">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
 
-                  <div class="col-lg-3 col-md-6 footer-contact">
-                      <h3>MSK Web</h3>
-                      <p>
-                          Sadar Bazar <br>
-                          New Delhi, Cant 110001<br>
-                          India <br><br>
-                          <strong>Phone:</strong> +91 8393042061<br>
-                          <strong>Email:</strong> mskshikohabad@gmail.com <br>
-                      </p>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Useful Links</h4>
-                      <ul>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                      </ul>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Our Services</h4>
-                      <ul>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                      </ul>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Our Social Networks</h4>
-                      <p>Connect with us on our social media platforms to stay updated with the latest news, insights,
-                          and updates from our team. Follow us on Facebook, Twitter, LinkedIn, and Instagram to join
-                          our community and engage with us directly.</p>
-                      <div class="social-links mt-3">
-                          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                      </div>
-                  </div>
-
-              </div>
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>MSK Web</h3>
+            <p>
+              Station Road, Shikohabad <br>
+              Firozabad (283141),<br>
+              Uttar Pradesh (India)<br>
+              <strong>Phone:</strong> +91 8393042062<br>
+              <strong>Email:</strong> mskshikohabad@gmail.com <br>
+            </p>
           </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Connect with us on our social media platforms to stay updated with the latest news, insights,
+              and updates from our team. Follow us on Facebook, Twitter, LinkedIn, and Instagram to join
+              our community and engage with us directly.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
       </div>
+    </div>
 
-      <div class="container footer-bottom clearfix">
-          <div class="copyright">
-              &copy; Copyright <strong><span>MSK Web</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-              Designed by <a href="https://mskweb.github.io/">MSK Web Solutions</a>
-          </div>
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>MSK Web</span></strong>. All Rights Reserved
       </div>
+      <div class="credits">
+        Designed by <a href="https://mskweb.github.io/">MSK Web Solutions</a>
+      </div>
+    </div>
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
